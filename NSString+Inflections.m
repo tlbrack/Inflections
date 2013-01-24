@@ -63,6 +63,7 @@ THE SOFTWARE.
 			[NSArray arrayWithObjects:@"([m|l])ouse$", @"$1ice", nil],
 			[NSArray arrayWithObjects:@"(quiz)$", @"$1zes", nil],
 			[NSArray arrayWithObjects:@"(cow)$", @"kine", nil],
+            [NSArray arrayWithObjects:@"(address)$", @"$1es", nil],
 			[NSArray arrayWithObjects:@"s$", @"s", nil],
 			[NSArray arrayWithObjects:@"$", @"s", nil],
 			nil] retain];
@@ -103,6 +104,7 @@ THE SOFTWARE.
 			[NSArray arrayWithObjects:@"(vert|ind)ices$", @"$1ex", nil],
 			[NSArray arrayWithObjects:@"(matr)ices$", @"$1ix", nil],
 			[NSArray arrayWithObjects:@"(quiz)zes$", @"$1", nil],
+            [NSArray arrayWithObjects:@"(address)$", @"$1", nil],
 			[NSArray arrayWithObjects:@"s$", @"", nil],
 			nil] retain];
 
